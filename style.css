@@ -1,0 +1,118 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:darkgray;
+}
+
+header {
+  background-color: rgb(156, 117, 26);
+  width: 100vw;
+  height: 50px;
+  padding-bottom: 30px;
+  position: fixed;
+  top:0;
+  color:black;
+  border-bottom: 4px solid darkblue;
+  box-shadow: 0 0 13px -3px darkblue;
+}
+
+.heading1 {
+ margin: 10px;
+}
+
+h1{
+  font-family:'Times New Roman', Times, serif;
+}
+
+#menu {
+  position: absolute;
+  width: 100%;
+  max-width: 30%;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  color:black;
+  font-size:large;
+}
+
+main {
+  background-color: lightgrey;
+  width: 80vw;
+  max-height: 75vh;
+  top: 5.3em;
+  bottom: 6em;
+  left: 3em;
+  right: 3em;
+  position: fixed;
+  margin: 10px auto;
+}
+
+h2 {
+  color: black;
+  font-size:30px;
+  margin-left: 20px;
+}
+
+img {
+  height: 350px;
+  float: right;
+  margin: 10px 40px 0px 10px;
+}
+
+p {
+  color: black;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+/* About HTML */
+.aboutme {
+  margin-left:20px;
+}
+
+.aboutme h3 {
+  font-size:25px;
+}
+
+.aboutme img {
+  height: 200px;
+  margin: -5px 30px 0px 10px;
+}
+
+/* Home HTML */
+.verse {
+  font-style: italic;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:35px;
+  margin-block-start: 8.5em;
+  text-align: center;
+}
+
+/* Portfolio HTML */
+.portfolio {
+  margin-left: 20px;
+}
+
+.portfolio h3 {
+  font: size 25px;
+}
+.portfolio p{
+  font-size: 15px;
+}
+
+footer {
+  width: 100vw;
+  height: 70px;
+  padding: 10px;
+  background-color: rgb(156, 117, 26);
+  position: fixed;
+  border-top: 4px solid darkblue;
+  bottom: 0;
+  box-shadow: 0 0 13px -3px darkblue;
+
+}
