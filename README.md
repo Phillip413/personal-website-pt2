@@ -1,3 +1,3 @@
 # personal-website-pt2
 In this Project we are building a personal website. The website incorporates HTML, CSS, and JavaScript to create 3 HTML pages (Home, About, and Portfolio) as well as style them.
-As part of part2, we are also creating an addition page called Contact which will contain a form with specific fields (name, email, message, submit button). The website will also be updated with imporved layouts using CSS Grid and flex as well as have prportional units and dynamic styling (hover effects).
+As part of part2, we are also creating an additional page called Contact which will contain a form with specific fields (name, email, message, submit button). The website will also be updated with improved layouts using CSS Grid and/or flex as well as have proportional units and dynamic styling (hover effects).
