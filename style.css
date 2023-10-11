@@ -14,7 +14,7 @@ header {
   position: fixed;
   top:0;
   color:black;
-  border-bottom: 4px solid darkblue;
+  border-bottom: 2px solid black;
   box-shadow: 0 0 13px -3px darkblue;
 }
 
@@ -50,41 +50,36 @@ main {
   right: 3em;
   position: fixed;
   margin: 10px auto;
+  overflow:auto;
+
+  border: 2px solid white;
+  box-shadow: 0 0 13px -3px white;
 }
 
 h2 {
   color: black;
   font-size:30px;
   margin-left: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
 }
 
-img {
-  height: 350px;
-  float: right;
-  margin: 10px 40px 0px 10px;
+h3 {
+  font-size:25px;
 }
 
 p {
   color: black;
-  font-size: 25px;
-  margin-left: 20px;
-}
-
-/* About HTML */
-.aboutme {
-  margin-left:20px;
-}
-
-.aboutme h3 {
-  font-size:25px;
-}
-
-.aboutme img {
-  height: 200px;
-  margin: -5px 30px 0px 10px;
+  font-size: 20px;
+  /* margin-left: 20px; */
 }
 
 /* Home HTML */
+.home-main {
+  margin-left:30px;
+  margin-right:30px;
+}
+
 .verse {
   font-style: italic;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -93,16 +88,30 @@ p {
   text-align: center;
 }
 
-/* Portfolio HTML */
-.portfolio {
-  margin-left: 20px;
+.home-main img {
+  height: 275px;
+  float: right;
+  margin: 10px 40px 0px 10px;
+  border: solid 2px black;
+  box-shadow: 0 0 13px -3px darkblue;
 }
 
-.portfolio h3 {
-  font: size 25px;
+/* About HTML */
+.about-main {
+  margin-left:30px;
+  margin-right:30px;
 }
-.portfolio p{
-  font-size: 15px;
+
+.about-main img {
+  height: 200px;
+  margin: -5px 30px 0px 10px;
+  /* float: right; */
+}
+
+/* Portfolio HTML */
+.portfolio-main {
+  margin-left:30px;
+  margin-right:30px;
 }
 
 footer {
@@ -111,8 +120,7 @@ footer {
   padding: 10px;
   background-color: rgb(156, 117, 26);
   position: fixed;
-  border-top: 4px solid darkblue;
+  border-top: 2px solid black;
   bottom: 0;
   box-shadow: 0 0 13px -3px darkblue;
-
 }
