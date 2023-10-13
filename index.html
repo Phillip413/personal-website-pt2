@@ -5,6 +5,9 @@
   <!-- <link rel="stylesheet" href="reset.css"/> -->
   <link rel="stylesheet" href="style.css"/>
   <script src="javascript.js" defer></script>
+ 
+  <!-- Loads an icon library to show hamburger menu -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -14,22 +17,37 @@
         <h1>Phillip Sim</h1>
       </div>
       <nav class="menu">
-      
-          <div>
+
+<!-- Navigation Links -->
+          <div id="mylinks" >
             <a href="index.html">Home</a>
-          </div>
-          
-          <div>
+
             <a href="about.html">About</a>
-          </div>
-          
-          <div>
+
             <a href="portfolio.html">Portfolio</a>
-          </div>
-          
-          <div>
+
             <a href="contact.html">Contact</a>
           </div>
+<!-- Hamburger menu -->
+         
+          <div class="hamburger">
+            <button class ="dropbtn">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </button>
+            <div id="myLinks">
+              <a href="index.html">Home</a>
+          
+              <a href="about.html">About</a>
+            
+              <a href="portfolio.html">Portfolio</a>
+            
+              <a href="contact.html">Contact</a>
+            </div>
+          </div>
+       
+
         
       </nav>
     </div>
